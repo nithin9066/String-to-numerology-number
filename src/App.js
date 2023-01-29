@@ -59,7 +59,7 @@ function App() {
     }
   }
   return (
-    <div className="lg:h-screen grid place-items-center" style={{ backgroundImage: `url('background.svg')` }}>
+    <div className="h-screen grid place-items-center" style={{ backgroundImage: `url('background.svg')`, backgroundSize: 'cover' }}>
       <div className="w-96 bg-sky-400/60 p-10 rounded-xl space-y-10 shadow-xl">
         <div className="flex flex-col gap-1">
           <label htmlFor="" className="font-medium text-white">Enter You String:</label>
